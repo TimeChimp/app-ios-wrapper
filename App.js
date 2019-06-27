@@ -18,7 +18,7 @@ export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <StatusBar barStyle="light-content" />
+        <StatusBar barStyle="dark-content" />
         <SafeAreaView forceInset={{ bottom: 'always' }}
                       style={{ flex: 1, backgroundColor: '#fff' }}>
           <WebView ref={webview => (this.webview = webview)}
