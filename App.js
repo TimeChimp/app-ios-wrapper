@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import {StyleSheet, View, WebView, StatusBar} from 'react-native';
+import { StyleSheet, View, WebView, StatusBar } from 'react-native';
 import SafeAreaView from 'react-native-safe-area-view';
-import {AppLoading, WebBrowser} from 'expo';
+import { AppLoading, WebBrowser } from 'expo';
 
 import isInternalUrl from './lib/is-internal-url';
 const webviewUrl =  'https://alpha.timechimp.app/';
