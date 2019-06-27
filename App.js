@@ -19,8 +19,8 @@ export default class App extends Component {
     return (
       <View style={styles.container}>
         <StatusBar barStyle="light-content" />
-        <SafeAreaView forceInset={{ bottom: 'never' }}
-                      style={{ flex: 1, backgroundColor: '#33d5b4' }}>
+        <SafeAreaView forceInset={{ bottom: 'always' }}
+                      style={{ flex: 1, backgroundColor: '#fff' }}>
           <WebView ref={webview => (this.webview = webview)}
                    source={ { uri: webviewUrl } }
                    onNavigationStateChange={this.onNavigationStateChange}
