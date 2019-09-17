@@ -1,4 +1,4 @@
-# pickup10.org iOS native wrapper
+# TimeChimp iOS native wrapper
 
 In order to have app presence in the Apple App Store this projects wraps pickup10.org.com in a native wrapper. To keep complexity low we used [Expo](https://expo.io/) in combination with [React Native](https://facebook.github.io/react-native/) to do so.
 
